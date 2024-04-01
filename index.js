@@ -3,11 +3,12 @@
 // @param toPerson The name of the person that the other person says "Hello!" to.
 function sayMyName(firstName, lastName) {
   // TODO: Finish the right side of the next line. Do not change anything else.
-  let result = '';
+  let result = undefined;
   return result;
 }
 
-sayMyName('Jane', 'Doe'); // Should return 'Hi! My name is Jane Doe'
+// DO NOT CHANGE ANYTHING BELOW THIS LINE.
 
-// DO NOT CHANGE ANYTHING AFTER THIS LINE.
-module.exports = sayMyName;
+module.exports = {
+  sayMyName,
+};
